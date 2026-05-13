@@ -1,0 +1,18 @@
+{
+  "name": "ivasms-public-bot",
+  "version": "2.0.0",
+  "description": "Public Telegram bot serving IVASMS numbers (Telegram/WhatsApp/Facebook) with instant OTP forwarding. Bilingual AR/EN.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "postinstall": "playwright install chromium"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.3.0",
+    "dotenv": "^16.4.5",
+    "node-cron": "^3.0.3",
+    "node-telegram-bot-api": "^0.66.0",
+    "playwright": "^1.47.0",
+    "pino": "^9.4.0"
+  }
+}

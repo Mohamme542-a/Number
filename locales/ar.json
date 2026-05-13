@@ -1,0 +1,17 @@
+{
+  "choose_lang": "🌐 اختر اللغة / Choose language:",
+  "lang_set": "✅ تم اختيار العربية.",
+  "welcome": "👋 أهلاً بك في بوت الأرقام المؤقتة.\nاختر الخدمة:",
+  "menu_telegram": "📱 Telegram",
+  "menu_whatsapp": "💬 WhatsApp",
+  "menu_facebook": "👤 Facebook",
+  "menu_change_lang": "🌐 تغيير اللغة",
+  "no_numbers": "🚫 لا توجد أرقام متاحة حالياً لهذه الخدمة. حاول لاحقاً.",
+  "your_number": "📞 رقمك:\n<code>{number}</code>\n\n⏳ في انتظار الرمز...",
+  "btn_change": "🔄 رقم جديد",
+  "btn_back": "⬅️ رجوع",
+  "otp_received": "✅ وصل الرمز للرقم <code>{number}</code>:\n\n🔑 <b>{otp}</b>\n\n📩 <i>{text}</i>",
+  "msg_received": "📩 رسالة جديدة للرقم <code>{number}</code>:\n\n{text}",
+  "released": "تم تحرير الرقم السابق.",
+  "back_menu": "اختر الخدمة:"
+}
