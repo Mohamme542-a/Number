@@ -1,0 +1,25 @@
+{
+  "name": "ivasms-otp-bot",
+  "version": "1.0.0",
+  "description": "IVASMS OTP scraper -> Telegram bot with realtime dashboard",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "nodemon backend/server.js",
+    "build:frontend": "cd frontend && npm install && npm run build",
+    "postinstall": "playwright install chromium"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.3.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "express-rate-limit": "^7.4.0",
+    "helmet": "^8.0.0",
+    "node-telegram-bot-api": "^0.66.0",
+    "playwright": "^1.48.0",
+    "socket.io": "^4.8.0",
+    "winston": "^3.15.0"
+  },
+  "devDependencies": { "nodemon": "^3.1.7" }
+}
