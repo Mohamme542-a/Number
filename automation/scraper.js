@@ -31,7 +31,8 @@ class IvasmsScraper {
   }
 
   async _isLoggedIn() {
-    try {await page.goto('https://www.ivasms.com/portal/sms/received', { waitUntil: 'networkidle2' });
+    try {
+      await this.page.goto(process.env.IVASMS_INBOX_URL, { waitUntil: 'domcontentloaded', timeout: 30000 });
       const url = this.page.url();
       return !/login/i.test(url);
     } catch (e) { return false; }
